@@ -231,11 +231,7 @@ with urllib.request.urlopen("https://opendata.cwb.gov.tw/fileapi/v1/opendataapi/
     alarms = json.loads(url.read().decode())
 if (alarms["cwbopendata"]["dataset"]["location"][19]["hazardConditions"] or alarms["cwbopendata"]["dataset"]["location"][20]["hazardConditions"] or alarms["cwbopendata"]["dataset"]["location"][21]["hazardConditions"]):
     if ("濃霧" in(alarms["cwbopendata"]["dataset"]["location"][19]["hazardConditions"] or alarms["cwbopendata"]["dataset"]["location"][20]["hazardConditions"] or alarms["cwbopendata"]["dataset"]["location"][21]["hazardConditions"])):
-        line_bot_api.push_message('Uef8f1442d362dee650feb8f9e6b43619', TextSendMessage(text="離島濃霧特報，請注意是否關場!!"))
-if alarms["cwbopendata"]["dataset"]["location"][1]["hazardConditions"]:
-    if (("豪" and "雨") in alarms["cwbopendata"]["dataset"]["location"][1]["hazardConditions"]) or (("大"and "雨") in alarms["cwbopendata"]["dataset"]["location"][1]["hazardConditions"]):
-        line_bot_api.push_message('Uef8f1442d362dee650feb8f9e6b43619', TextSendMessage(text="豪大雨特報，請留意航廈是否漏水!!"))
-
+        line_bot_api.push_message('Uef8f1442d362dee650feb8f9e6b43619', TextSendMessage(text="離島濃霧特報，請注意!!"))
 #測試區
 
 import os
