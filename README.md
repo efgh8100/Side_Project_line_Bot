@@ -14,3 +14,8 @@ My first Side Project
 初學者，程式寫的不是很好，請多包涵
 
 帳號:@849iigqb
+
+QR_code
+
+
+![image](https://github.com/efgh8100/Side_Project_line_Bot/blob/master/849iigqb.png)
