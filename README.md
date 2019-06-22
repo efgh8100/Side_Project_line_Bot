@@ -28,3 +28,8 @@ QR_code
 
 
 ![image](https://github.com/efgh8100/Side_Project_line_Bot/blob/master/849iigqb.png)
+
+自製的姆咪機器人
+
+
+![image](https://github.com/efgh8100/Side_Project_line_Bot/blob/master/PartialScreenshot_20190622-230049.png)
